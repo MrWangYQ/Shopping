@@ -1,0 +1,22 @@
+.showMsg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 30%;
+    text-align: center;
+    font-size: .25rem;
+    padding: .2rem .4rem;
+    border-radius: .2rem;
+    color: #fff;
+    background: rgba(0, 0, 0, .8);
+    animation: fandIn 2s ease-in forwards;
+}
+@keyframes fandIn {
+    0%, 50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "shopName": "购物车",
+  "shopList": [{
+    "id": "2435",
+    "shopsrc": "http://lb717.com/Uploads/images/old/data/20150107/goodsimage/huge/56482eadc1a46ea36465eb4b460fe7c00a3fe216.jpg",
+    "shopname": "韩国舒川雪味 海苔 4.5g*3袋*18 包邮 整箱",
+    "shopprice": "139.00",
+    "shopcount": 1,
+    "shopchecked": false
+  }, {
+    "id": "4908",
+    "shopsrc": "http://lb717.com/public/upload/temp/2017/07-10/b24094e2672f0b94aa638a7a964b9c2c.jpg",
+    "shopname": "希尔庄园 土耳其进口特级初榨橄榄油礼盒750ml*2 送礼团购",
+    "shopprice": "216.00",
+    "shopcount": 1,
+    "shopchecked": false
+  }, {
+    "id": "650",
+    "shopsrc": "http://lb717.com/Uploads/images/old/data/20150107/goodsimage/huge/61ee32971b8c7242a6dacfc994b155ee1a423556.jpg",
+    "shopname": "南洋古早原味白咖啡40克*10",
+    "shopprice": "44.00",
+    "shopcount": 1,
+    "shopchecked": false
+  }, {
+    "id": "4777",
+    "shopsrc": "http://lb717.com/public/upload/temp/2017/07-17/a1324f85faeab4bb134a74f5d9f1b1e4.jpg",
+    "shopname": "御龙源 北大荒酸菜棵500克×3袋 亲民有机酸菜棵 东北酸菜 笨酸菜  500g",
+    "shopprice": "45.80",
+    "shopcount": 1,
+    "shopchecked": false
+  }]
+}
