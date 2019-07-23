@@ -18,7 +18,7 @@
     </div>
 </template>
 <script>
-    import {Toast} from '@/../node_modules/mint-ui';
+    import {Toast} from 'mint-ui';
     import { getCookie } from '@/utils/utils';
     export default {
         props: {

@@ -25,7 +25,7 @@
 </template>
 <script>
     import { setCookie } from '@/utils/utils';
-    import {Toast} from '@/../node_modules/mint-ui';
+    import {Toast} from 'mint-ui';
     export default {
         data () {
             return {

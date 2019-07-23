@@ -3,10 +3,10 @@ var app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.all('*', (req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'http://localhost:8080');
+    res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
     res.header('Access-Control-Allow-Headers', 'X-Requested-With');
-    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    res.header('Access-Control-Allow-Headers', 'x-requested-with, Content-Type, Authorization');
     res.header('Content-Type', 'application/json');
     next();
 });
@@ -20,6 +20,8 @@ app.post('/mall/index/getGoodsChannel', (req, res) => {
 });
 app.post('/mall/goods/recommendgoods', (req, res) => {
     httpCreate('/mall/goods/recommendgoods', req.body, 'POST').then((data) => {
+      console.log(data, 'data');
+      
         res.end(data);
     });
 });

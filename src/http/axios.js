@@ -2,7 +2,7 @@ import Vue from 'vue';
 import axios from 'axios';
 import { getCookie } from '@/utils/utils';
 if (process.env.NODE_ENV === 'development') {
-    axios.defaults.baseURL = 'http://localhost:3000';
+    axios.defaults.baseURL = 'http://127.0.0.1:3000';
 }
 if (process.env.NODE_ENV === 'production') {
     axios.defaults.baseURL = 'http://www.lb717.com';
